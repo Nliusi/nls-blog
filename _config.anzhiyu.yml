@@ -135,7 +135,7 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: /favicon.ico
+favicon: /img/fav.png
 
 # Avatar (头像)
 avatar:
@@ -1056,17 +1056,22 @@ home_top:
       path: /categories/前端开发/
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
-      icon: anzhiyu-icon-dove
+      icon: ""
     - name: 大学
       path: /categories/大学生涯/
       shadow: var(--anzhiyu-shadow-red)
       class: red
-      icon: anzhiyu-icon-fire
+      icon: ""
+    - name: 职场
+      path: /categories/职场工作/
+      shadow: var(--anzhiyu-shadow-purple)
+      class: purple
+      icon: ""
     - name: 生活
       path: /categories/生活日常/
       shadow: var(--anzhiyu-shadow-green)
       class: green
-      icon: anzhiyu-icon-book
+      icon: ""
   default_descr: 再怎么看我也不知道怎么描述它的啦！
   swiper:
     enable: false
@@ -1117,7 +1122,7 @@ umami:
 
 # 标签卖萌
 diytitle:
-  enable: true
+  enable: false
   leaveTitle: w(ﾟДﾟ)w 不要走！再看看嘛！
   backTitle: ♪(^∇^*)欢迎肥来！
 
